@@ -8,7 +8,19 @@ body {
 main {
   /* border: 1px solid black; */
   margin: auto;
-  padding: .5rem;
+  padding: 0.5rem;
+}
+
+ul li, p {
+  line-height: 1.5rem;
+}
+
+a {
+  color: rgb(31, 31, 212);
+}
+
+a:visited {
+  color: rgb(31, 31, 212);
 }
 
 @media screen and (width >= 900px) {
@@ -23,18 +35,14 @@ main {
   }
 }
 
-
 @media screen and (width >= 500px) and (width < 700px) {
   main {
     width: 70%;
-
   }
 }
 
-
 @media screen and (width <= 500px) {
   main {
-    width: 95%;
-
+    width: 90%;
   }
 }
